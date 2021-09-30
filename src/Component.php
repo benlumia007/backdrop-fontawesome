@@ -28,7 +28,7 @@ class Component implements Bootable {
 	 * @return void
 	 */
 	public function enqueue() {
-		wp_enqueue_style( 'backdrop-fontawesome', get_theme_file_uri( '/vendor/benlumia007/backdrop-fontawesome/assets/font-awesome/css/all.css' ), array(), '1.0.0' );
+		wp_enqueue_style( 'backdrop-fontawesome', get_theme_file_uri( '/vendor/benlumia007/backdrop-fontawesome/assets/css/all.css' ), array(), '1.0.0' );
     }
 
     public function boot() {
