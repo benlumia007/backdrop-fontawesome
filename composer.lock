@@ -4,12 +4,61 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "3e4b8c14416c8cc10a655544074d3e14",
-    "packages": [],
+    "content-hash": "c6d31330aa59c6031cfb33503e89c0da",
+    "packages": [
+        {
+            "name": "benlumia007/backdrop",
+            "version": "v3.0.0.x-dev",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/benlumia007/backdrop.git",
+                "reference": "4e37cb7a88e1e302ee27f7bab3d90454a0cc2e7b"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/benlumia007/backdrop/zipball/4e37cb7a88e1e302ee27f7bab3d90454a0cc2e7b",
+                "reference": "4e37cb7a88e1e302ee27f7bab3d90454a0cc2e7b",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.3.24"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Benlumia007\\Backdrop\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "Benjamin Lu",
+                    "email": "benlumia007@gmail.com",
+                    "homepage": "https://benjlu.com",
+                    "role": "Developer"
+                }
+            ],
+            "description": "A core that helps you build amazing themes",
+            "homepage": "https://github.com/benlumia007/backdrop",
+            "keywords": [
+                "wordpress"
+            ],
+            "support": {
+                "issues": "https://github.com/benlumia007/backdrop/issues",
+                "source": "https://github.com/benlumia007/backdrop/tree/v3.0.0"
+            },
+            "time": "2021-10-01T15:19:51+00:00"
+        }
+    ],
     "packages-dev": [],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": [],
+    "stability-flags": {
+        "benlumia007/backdrop": 20
+    },
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": {
