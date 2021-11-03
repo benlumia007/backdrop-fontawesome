@@ -4,20 +4,20 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "c6d31330aa59c6031cfb33503e89c0da",
+    "content-hash": "d973136eec7ad2337cfd37f4fc285ec0",
     "packages": [
         {
             "name": "benlumia007/backdrop",
-            "version": "v3.0.0.x-dev",
+            "version": "3.0.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/benlumia007/backdrop.git",
-                "reference": "4e37cb7a88e1e302ee27f7bab3d90454a0cc2e7b"
+                "reference": "648fcaa023733ac4631e21c2e5c3f96675d79b42"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/benlumia007/backdrop/zipball/4e37cb7a88e1e302ee27f7bab3d90454a0cc2e7b",
-                "reference": "4e37cb7a88e1e302ee27f7bab3d90454a0cc2e7b",
+                "url": "https://api.github.com/repos/benlumia007/backdrop/zipball/648fcaa023733ac4631e21c2e5c3f96675d79b42",
+                "reference": "648fcaa023733ac4631e21c2e5c3f96675d79b42",
                 "shasum": ""
             },
             "require": {
@@ -48,22 +48,20 @@
             ],
             "support": {
                 "issues": "https://github.com/benlumia007/backdrop/issues",
-                "source": "https://github.com/benlumia007/backdrop/tree/v3.0.0"
+                "source": "https://github.com/benlumia007/backdrop/tree/3.0.0"
             },
-            "time": "2021-10-01T15:19:51+00:00"
+            "time": "2021-11-03T20:53:44+00:00"
         }
     ],
     "packages-dev": [],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": {
-        "benlumia007/backdrop": 20
-    },
+    "stability-flags": [],
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": {
         "php": ">=7.3.24"
     },
     "platform-dev": [],
-    "plugin-api-version": "2.0.0"
+    "plugin-api-version": "2.1.0"
 }
