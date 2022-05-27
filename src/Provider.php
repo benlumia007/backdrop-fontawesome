@@ -12,7 +12,7 @@
  * Define namespace
  */
 namespace Benlumia007\Backdrop\FontAwesome;
-use Benlumia007\Backdrop\Tools\ServiceProvider;
+use Benlumia007\Backdrop\Support\ServiceProvider;
 use Benlumia007\Backdrop\FontAwesome\Component;
 
 /**
